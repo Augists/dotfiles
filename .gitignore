@@ -1,0 +1,36 @@
+Applications
+Calibre\ Library
+Desktop
+Documents
+Downloads
+go
+Library
+Movies
+Music
+Nutstore Files
+Pictures
+Public
+.vimrc
+.zsh_history
+.viminfo
+.vim/plugged/
+.vim/.netrwhist
+.vim/undo
+.vim/backup
+.local
+.DS_Store
+.nutstore
+.oracle_jre_usage
+.Trash
+.lldb
+.vscode
+.ssh
+.todo
+.emacs.d
+.spacemacs
+.python_history
+.npm
+.swt
+.oh-my-zsh
+.gervill
+.idlerc
