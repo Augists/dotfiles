@@ -119,6 +119,6 @@ alias r='ranger'
 alias c='clear'
 alias e='exit'
 alias v='vim'
-alias emacs='open /Applications/Emacs.app'
+# alias emacs='open /Applications/Emacs.app'
 
 export PATH=$PATH:~/go/bin
