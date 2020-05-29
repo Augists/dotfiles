@@ -34,4 +34,5 @@ Public
 .oh-my-zsh
 .gervill
 .idlerc
+.npminstall_tarball
 .config/configstore
