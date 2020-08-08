@@ -36,3 +36,4 @@ Public
 .idlerc
 .npminstall_tarball
 .config/configstore
+.git-credentials
