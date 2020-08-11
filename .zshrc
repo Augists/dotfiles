@@ -122,3 +122,7 @@ alias v='vim'
 # alias emacs='open /Applications/Emacs.app'
 
 export PATH=$PATH:~/go/bin
+
+# proxy
+alias proxy='export all_proxy=socks5://127.0.0.1:1080'
+alias unproxy='unset all_proxy'
