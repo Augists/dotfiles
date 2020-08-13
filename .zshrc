@@ -124,11 +124,11 @@ alias v='vim'
 export PATH=$PATH:~/go/bin
 
 # proxy
-alias proxy='export all_proxy=socks5://127.0.0.1:1080'
-alias unproxy='unset all_proxy'
+alias proxy_on='export all_proxy=socks5://127.0.0.1:1080'
+alias proxy_off='unset all_proxy'
 # export http_proxy=socks5://127.0.0.1:1080
 # export https_proxy=socks5://127.0.0.1:1080
 #
 # git config -global http.proxy 'socks5://127.0.0.1:1080'
-alias gp='git config --global http.proxy "http://127.0.0.1:1080"; git config --global https.proxy "https://127.0.0.1:1080"'
-alias gup='git config --global --unset http.proxy; git config --global --unset https.proxy'
+alias git_proxy_on='git config --global http.proxy "http://127.0.0.1:1080"; git config --global https.proxy "https://127.0.0.1:1080"'
+alias git_proxy_off='git config --global --unset http.proxy; git config --global --unset https.proxy'
