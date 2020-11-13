@@ -37,3 +37,4 @@ Public
 .npminstall_tarball
 .config/configstore
 .git-credentials
+.zsh_sessions
