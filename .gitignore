@@ -39,4 +39,5 @@ Public
 .git-credentials
 .zsh_sessions
 Virtual Machines.localized
-.local/clash
+.config/clash/
+.config/.cache/
