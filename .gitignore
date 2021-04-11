@@ -42,3 +42,4 @@ Virtual Machines.localized
 .config/clash/
 .config/.cache/
 .docker
+texput.log
