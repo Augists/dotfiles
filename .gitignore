@@ -44,3 +44,4 @@ Virtual Machines.localized
 .docker
 texput.log
 .config/texstudio
+.eda_login.zshrc
