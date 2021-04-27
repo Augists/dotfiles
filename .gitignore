@@ -39,7 +39,7 @@ Public
 .git-credentials
 .zsh_sessions
 Virtual Machines.localized
-.config/clash/
+.config/clash/.cache
 .config/.cache/
 .docker
 texput.log
