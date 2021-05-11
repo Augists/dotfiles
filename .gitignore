@@ -39,10 +39,10 @@ Public
 .git-credentials
 .zsh_sessions
 Virtual Machines.localized
-.config/clash/.cache
+.config/clash/
 .config/.cache/
 .docker
 texput.log
-.config/texstudio
+.config/texstudio/
 .eda_login.zshrc
-.config/joplin-desktop
+.config/joplin-desktop/
