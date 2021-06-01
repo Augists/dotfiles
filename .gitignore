@@ -1,0 +1,10 @@
+/*
+!.gitignore
+!.gitconfig
+!.zshrc
+!/.config
+/.config/*
+!.config/htop
+!.config/ranger
+!.config/.zsh_history_bak
+!.config/.tmux
