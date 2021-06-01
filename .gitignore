@@ -4,3 +4,7 @@
 !.gitignore
 !.gitconfig
 !.zshrc
+!.config/htop/
+!.config/.tmux/
+!.config/ranger/
+!.config/.zsh_history_bak

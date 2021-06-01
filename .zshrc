@@ -133,4 +133,4 @@ alias proxy_off='unset all_proxy'
 alias git_proxy_on='git config --global http.proxy "http://127.0.0.1:1080"; git config --global https.proxy "https://127.0.0.1:1080"'
 alias git_proxy_off='git config --global --unset http.proxy; git config --global --unset https.proxy'
 
-source ~/.eda_login.zshrc
+source ~/.network.zshrc
