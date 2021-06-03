@@ -1,0 +1,67 @@
+------------------------ launchctl ------------------------
+launchctl list
+---------------------- networksetup -----------------------
+networksetup -listallhardwareports
+sudo crontab -e
+networksetup -setairportnetwork en0 DLUT-EDA
+networksetup -setairportnetwork en0 We_R_Family_5G
+eda
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | awk '/ SSID/ {print substr($0, index($0, $2))}'
+networksetup -listallhardwareports | grep Wi-Fi -A 1 | grep Device | awk '{print $2}'
+curl -s -w %{http_code} --connect-timeout 5 "https://www.google.cn/generate_204"
+-------------------------- rsync --------------------------
+rsync .vimrc ~/Downloads/GitHub/ZDCZ-vimrc/
+------------------------- tcping --------------------------
+tcping 114.116.207.110 25565
+------------------------- telnet --------------------------
+telnet fe80::6fe:8dff:fe8d:ada7
+-------------------------- python -------------------------
+python3 -m http.server 8080
+--------------------------- git ---------------------------
+git ls-files --ignored --exclude-standard
+git log
+git --help
+git show
+git rm -r --cached .
+git push
+git commit -m "remake .gitignore"
+git add .
+git status
+-------------------------- docker -------------------------
+docker pull postgres
+docker run --name postgreSQL -d -p 5432:5432 -e POSTGRES_PASSWORD=123456 postgres
+docker exec -it 4000121688fe2732e5c9d36ebf4951f38b846f68425f76483b632dfbd07e3a6a /bin/sh
+docker stop ubuntuOS
+docker start -i ubuntuOS
+docker start dockersql
+--------------------------- ssh ---------------------------
+ssh-copy-id Augists@137.116.167.187
+ssh root@124.71.234.241
+ssh root@114.116.207.110
+ssh Augists@137.116.167.187
+-------------------------- hosts --------------------------
+sudo vim /etc/hosts
+-------------------------- proxy --------------------------
+proxy_off
+proxy_on
+-------------------------- hexo ---------------------------
+hexo new "Shortcut Screen Saver"
+hexo s
+hexo d -g
+hexo clean
+-------------------------- brew ---------------------------
+brew search tcping
+brew install tcping
+brew deps --installed --tree
+-------------------------- tmux ---------------------------
+ln -s -f .config/.tmux/.tmux.conf
+tmux ls
+tmux new -s blog
+tmux att -t blog
+tmux new -s code
+tmux att -t code
+------------------------- ranger --------------------------
+r
+------------------------- autojump ------------------------
+j aug
+-------------------------- later --------------------------
