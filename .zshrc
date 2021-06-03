@@ -72,8 +72,9 @@ HIST_STAMPS="mm/dd/yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	web-search
 	vi-mode
+	autojump
+	web-search
 	colored-man-pages
 	osx
 )
