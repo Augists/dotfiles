@@ -135,3 +135,5 @@ alias git_proxy_on='git config --global http.proxy "http://127.0.0.1:1080"; git 
 alias git_proxy_off='git config --global --unset http.proxy; git config --global --unset https.proxy'
 
 source ~/.network.zshrc
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
