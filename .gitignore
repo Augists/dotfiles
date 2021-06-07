@@ -9,3 +9,6 @@
 !.config/ranger
 !.config/.zsh_history_bak
 !.config/.tmux
+!/.config/karabiner
+/.config/karabiner/*
+!.config/karabiner/karabiner.json
