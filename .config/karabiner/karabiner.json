@@ -39,52 +39,6 @@
                         ]
                     },
                     {
-                        "description": "left_arrow_b",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "b",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "halt": true,
-                                        "key_code": "left_arrow",
-                                        "repeat": true
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "right_arrow_l",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "l",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "halt": true,
-                                        "key_code": "right_arrow",
-                                        "repeat": true
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "right_arrow_f",
                         "manipulators": [
                             {
@@ -108,29 +62,6 @@
                         ]
                     },
                     {
-                        "description": "up_arrow_k",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "k",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "halt": true,
-                                        "key_code": "up_arrow",
-                                        "repeat": true
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "up_arrow_p",
                         "manipulators": [
                             {
@@ -146,29 +77,6 @@
                                     {
                                         "halt": true,
                                         "key_code": "up_arrow",
-                                        "repeat": true
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "down_arrow_j",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "j",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "halt": true,
-                                        "key_code": "down_arrow",
                                         "repeat": true
                                     }
                                 ],
