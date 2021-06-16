@@ -77,6 +77,7 @@ plugins=(
 	web-search
 	colored-man-pages
 	osx
+	zsh-syntax-highlighting
 )
 
 # future plugins list
