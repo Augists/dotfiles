@@ -9,6 +9,14 @@ eda
 /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | awk '/ SSID/ {print substr($0, index($0, $2))}'
 networksetup -listallhardwareports | grep Wi-Fi -A 1 | grep Device | awk '{print $2}'
 curl -s -w %{http_code} --connect-timeout 5 "https://www.google.cn/generate_204"
+--------------------------- fzf ---------------------------
+vim $(fzf)
+$(brew --prefix)/opt/fzf/install
+fd # fzf directory locally
+fe # fzf file locally
+fkill # fzf kill process locally
+tm # fzf create or switch tmux session
+fs # fzf attach tmux session
 -------------------------- rsync --------------------------
 rsync .vimrc ~/Downloads/GitHub/ZDCZ-vimrc/
 ------------------------- tcping --------------------------
@@ -36,8 +44,9 @@ docker start -i ubuntuOS
 docker start dockersql
 --------------------------- ssh ---------------------------
 ssh-copy-id Augists@137.116.167.187
-ssh root@124.71.234.241
-ssh root@114.116.207.110
+----- megaboy -----
+ssh root@122.9.43.230
+----- azure -----
 ssh Augists@137.116.167.187
 -------------------------- hosts --------------------------
 sudo vim /etc/hosts
@@ -50,6 +59,7 @@ hexo s
 hexo d -g
 hexo clean
 -------------------------- brew ---------------------------
+brew outdated
 brew search tcping
 brew install tcping
 brew deps --installed --tree
@@ -60,8 +70,10 @@ tmux new -s blog
 tmux att -t blog
 tmux new -s code
 tmux att -t code
+tmux att -t ssh
 ------------------------- ranger --------------------------
 r
 ------------------------- autojump ------------------------
 j aug
+j code
 -------------------------- later --------------------------
