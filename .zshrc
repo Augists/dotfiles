@@ -138,3 +138,5 @@ alias git_proxy_off='git config --global --unset http.proxy; git config --global
 source ~/.config/.network.zshrc
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export EDITOR=/usr/local/bin/nvim
