@@ -3,6 +3,7 @@
 !.gitconfig
 !.zshrc
 !.fzf.zsh
+!.clang-format
 !/.config
 /.config/*
 !.config/htop
