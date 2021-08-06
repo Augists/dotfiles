@@ -140,3 +140,5 @@ source ~/.config/.network.zshrc
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export EDITOR=/usr/local/bin/nvim
+alias vi='nvim'
+alias vim='nvim'
