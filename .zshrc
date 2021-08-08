@@ -141,4 +141,3 @@ source ~/.config/.network.zshrc
 
 export EDITOR=/usr/local/bin/nvim
 alias vi='nvim'
-alias vim='nvim'
