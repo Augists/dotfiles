@@ -44,10 +44,12 @@ docker start -i ubuntuOS
 docker start dockersql
 --------------------------- ssh ---------------------------
 ssh-copy-id Augists@137.116.167.187
------ megaboy -----
-ssh root@122.9.43.230
------ azure -----
+----- azure HK -----
 ssh Augists@137.116.167.187
+----- DUT know -----
+ssh root@43.132.169.163
+----- octave -----
+ssh root@124.70.102.204
 -------------------------- hosts --------------------------
 sudo vim /etc/hosts
 -------------------------- proxy --------------------------
@@ -60,9 +62,12 @@ hexo d -g
 hexo clean
 -------------------------- brew ---------------------------
 brew outdated
+brew cleanup
 brew search tcping
 brew install tcping
 brew deps --installed --tree
+brew rmtree m4
+brew tap beeftornado/rmtree
 -------------------------- tmux ---------------------------
 ln -s -f .config/.tmux/.tmux.conf
 tmux ls
@@ -71,9 +76,26 @@ tmux att -t blog
 tmux new -s code
 tmux att -t code
 tmux att -t ssh
-------------------------- ranger --------------------------
+-------------------------- ranger -------------------------
 r
 ------------------------- autojump ------------------------
 j aug
 j code
+j config
+-------------------------- tools --------------------------
+glow python.md
+/Users/zhangyichi/Library/Python/3.8/bin/jedi-language-server --help
+clang-format --style=llvm --dump-config > .clang-format
+sw_vers
+diff /etc/hosts <(ssh Augists@137.116.167.187 cat /etc/hosts)
+--------------------------- ip ----------------------------
+export https_proxy=socks5://127.0.0.1:1080
+export https_proxy=socks5://127.0.0.1:1080
+export all_proxy=socks5://127.0.0.1:1080
+curl ipinfo.io
+curl https://ip.cn
+curl cip.cc
+curl myip.ipip.net
+curl ifconfig.me
+curl http://members.3322.org/dyndns/getip
 -------------------------- later --------------------------
