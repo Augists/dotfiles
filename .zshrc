@@ -77,7 +77,6 @@ plugins=(
 	web-search
 	colored-man-pages
 	osx
-	zsh-syntax-highlighting
 )
 
 # future plugins list
@@ -115,6 +114,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # alias
 alias r='ranger'
@@ -141,3 +141,5 @@ source ~/.config/.network.zshrc
 
 export EDITOR=/usr/local/bin/nvim
 alias vim='nvim'
+
+alias ll='ls -la'
