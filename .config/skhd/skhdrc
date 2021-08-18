@@ -13,11 +13,11 @@ shift + alt - k : yabai -m window --focus north
 shift + alt - l : yabai -m window --focus east
 
 # Spaces:  Alt + [NUM]
-# alt - 1 : yabai -m space --focus 1
-# alt - 2 : yabai -m space --focus 2
-# alt - 3 : yabai -m space --focus 3
-# alt - 4 : yabai -m space --focus 4
-# alt - 5 : yabai -m space --focus 5
+alt - 1 : yabai -m space --focus 1
+alt - 2 : yabai -m space --focus 2
+alt - 3 : yabai -m space --focus 3
+alt - 4 : yabai -m space --focus 4
+alt - 5 : yabai -m space --focus 5
 
 # Monitors: Ctrl + Alt + [NUM]
 # ctrl + alt - 1  : yabai -m display --focus 1
@@ -48,10 +48,10 @@ ctrl + shift - 5 : yabai -m window --space  5; yabai -m space --focus 5
 # ctrl + cmd - 2  : yabai -m window --display 2; yabai -m display --focus 2
 
 # Floating Move
-shift + ctrl - a : yabai -m window --move rel:-20:0
-shift + ctrl - s : yabai -m window --move rel:0:20
-shift + ctrl - w : yabai -m window --move rel:0:-20
-shift + ctrl - d : yabai -m window --move rel:20:0
+# shift + ctrl - a : yabai -m window --move rel:-20:0
+# shift + ctrl - s : yabai -m window --move rel:0:20
+# shift + ctrl - w : yabai -m window --move rel:0:-20
+# shift + ctrl - d : yabai -m window --move rel:20:0
 
 # Rotate
 alt - r : yabai -m space --rotate 90
@@ -86,10 +86,10 @@ alt - t : yabai -m window --toggle float;\
 ##############################################
 
 # Fill
-shift + alt - up     : yabai -m window --grid 1:1:0:0:1:1
+# shift + alt - up     : yabai -m window --grid 1:1:0:0:1:1
 
 # Left
-shift + alt - left   : yabai -m window --grid 1:2:0:0:1:1
+# shift + alt - left   : yabai -m window --grid 1:2:0:0:1:1
 
 # Right
-shift + alt - right  : yabai -m window --grid 1:2:1:0:1:1
+# shift + alt - right  : yabai -m window --grid 1:2:1:0:1:1

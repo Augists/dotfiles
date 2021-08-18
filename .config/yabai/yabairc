@@ -30,20 +30,20 @@ yabai -m config mouse_action2                   resize
 # border
 yabai -m config window_border                   on
 yabai -m config window_border_width             5
-yabai -m config active_window_border_color      0x00775759
-yabai -m config normal_window_border_color      0x00505050
-yabai -m config insert_window_border_color      0xffd75f5f
-# yabai -m config active_window_border_color      0xff8787af
-# yabai -m config normal_window_border_color      0xff555555
-# yabai -m config insert_feedback_color           0xffd75f5f
+# yabai -m config active_window_border_color      0x00775759
+# yabai -m config normal_window_border_color      0x00505050
+# yabai -m config insert_window_border_color      0xffd75f5f
+yabai -m config active_window_border_color      0xff8787af
+yabai -m config normal_window_border_color      0xff555555
+yabai -m config insert_feedback_color           0xffd75f5f
 
 # general space settings
 yabai -m config layout                          bsp
-yabai -m config top_padding                     10
-yabai -m config bottom_padding                  10
-yabai -m config left_padding                    10
-yabai -m config right_padding                   10
-yabai -m config window_gap                      10
+yabai -m config top_padding                     15
+yabai -m config bottom_padding                  15
+yabai -m config left_padding                    15
+yabai -m config right_padding                   15
+yabai -m config window_gap                      15
 
 # specific space settings
 # yabai -m config --space 2 layout             stack
@@ -51,7 +51,7 @@ yabai -m config window_gap                      10
 # window rules
 yabai -m rule --add app="^Mail$"                space=4
 yabai -m rule --add app="^Safari$"              space=2
-yabai -m rule --add app="^QQ$"                  manage=off
+# yabai -m rule --add app="^QQ$"                  manage=off
 yabai -m rule --add app="^WeChat$"              manage=off
 yabai -m rule --add app="^System Preferences$"  manage=off
 yabai -m rule --add app="^Finder$"              manage=off
