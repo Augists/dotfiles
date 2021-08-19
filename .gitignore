@@ -35,6 +35,4 @@ go/*
 !.config/ranger
 !.config/skhd
 !.config/yabai
-
 !.config/zsh
-.config/zsh/*

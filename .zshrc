@@ -5,3 +5,4 @@ source ~/.vim/vim_conf.zsh
 source ~/.config/zsh/network.zsh
 source ~/.config/nnn/nnn_conf.zsh
 source ~/.config/zsh/fzf.zsh
+source ~/.config/zsh/python.zsh

@@ -51,7 +51,9 @@ yabai -m config window_gap                      15
 # window rules
 yabai -m rule --add app="^Mail$"                space=4
 yabai -m rule --add app="^Safari$"              space=2
-# yabai -m rule --add app="^QQ$"                  manage=off
+yabai -m rule --add app="^kitty$"               space=1
+yabai -m rule --add app="^QQ$"                  space=4
+yabai -m rule --add app="^Music$"               space=5
 yabai -m rule --add app="^WeChat$"              manage=off
 yabai -m rule --add app="^System Preferences$"  manage=off
 yabai -m rule --add app="^Finder$"              manage=off
