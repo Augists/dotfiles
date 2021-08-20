@@ -3,15 +3,15 @@ sudo yabai --load-sa
 yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 
 # bar settings
-yabai -m config status_bar                   off
-yabai -m config status_bar_text_font         "Helvetica Neue:Bold:12.0"
-yabai -m config status_bar_icon_font         "FontAwesome:Regular:12.0"
-yabai -m config status_bar_background_color  0xff202020
-yabai -m config status_bar_foreground_color  0xffa8a8a8
-yabai -m config status_bar_space_icon_strip  I II III IV V VI VII VIII IX X
-yabai -m config status_bar_power_icon_strip   
-yabai -m config status_bar_space_icon        
-yabai -m config status_bar_clock_icon        
+# yabai -m config status_bar                   off
+# yabai -m config status_bar_text_font         "Helvetica Neue:Bold:12.0"
+# yabai -m config status_bar_icon_font         "FontAwesome:Regular:12.0"
+# yabai -m config status_bar_background_color  0xff202020
+# yabai -m config status_bar_foreground_color  0xffa8a8a8
+# yabai -m config status_bar_space_icon_strip  I II III IV V VI VII VIII IX X
+# yabai -m config status_bar_power_icon_strip   
+# yabai -m config status_bar_space_icon        
+# yabai -m config status_bar_clock_icon        
 
 # global settings
 yabai -m config mouse_follows_focus             off
@@ -39,7 +39,7 @@ yabai -m config insert_feedback_color           0xffd75f5f
 
 # general space settings
 yabai -m config layout                          bsp
-yabai -m config top_padding                     15
+yabai -m config top_padding                     35
 yabai -m config bottom_padding                  15
 yabai -m config left_padding                    15
 yabai -m config right_padding                   15
@@ -56,4 +56,4 @@ yabai -m rule --add app="^QQ$"                  space=4
 yabai -m rule --add app="^Music$"               space=5
 yabai -m rule --add app="^WeChat$"              manage=off
 yabai -m rule --add app="^System Preferences$"  manage=off
-yabai -m rule --add app="^Finder$"              manage=off
+# yabai -m rule --add app="^Finder$"              manage=off
