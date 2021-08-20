@@ -9,10 +9,10 @@ spacebar -m config power                on
 spacebar -m config padding_left         20
 spacebar -m config padding_right        20
 spacebar -m config spacing_left         25
-spacebar -m config spacing_right        15
+spacebar -m config spacing_right        25
 # spacebar -m config text_font            "Helvetica Neue:Bold:12.0"
-spacebar -m config text_font            "SauceCodePro Nerd Font:Regular:13.0"
-spacebar -m config icon_font            "SauceCodePro Nerd Font:Regular:12.0"
+spacebar -m config text_font            "SauceCodePro Nerd Font:Regular:14.0"
+spacebar -m config icon_font            "SauceCodePro Nerd Font:Regular:13.0"
 # spacebar -m config icon_font            "Font Awesome:Solid:12.0"
 spacebar -m config background_color     0xff202020
 spacebar -m config foreground_color     0xffa8a8a8
@@ -26,7 +26,7 @@ spacebar -m config space_icon_strip         
 # spacebar -m config space_icon           
 spacebar -m config clock_icon           
 spacebar -m config dnd_icon             
-spacebar -m config clock_format         "%d/%m/%y %R"
+spacebar -m config clock_format         "%y/%m/%d %R"
 # spacebar -m config right_shell          on
 # spacebar -m config right_shell_icon     
 # spacebar -m config right_shell_command  "whoami"
