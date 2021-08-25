@@ -27,13 +27,13 @@ go/*
 !.config/.tmux
 !.config/htop
 
-!.config/karabiner
-.config/karabiner/*
-!.config/karabiner/karabiner.json
+!.config/deprecated
+.config/deprecated/*
+!.config/deprecated/karabiner
+!.config/deprecated/ranger
+!.config/deprecated/spacebar
 !.config/kitty
 !.config/nnn
-!.config/ranger
 !.config/skhd
 !.config/yabai
-!.config/spacebar
 !.config/zsh
