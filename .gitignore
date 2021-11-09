@@ -37,3 +37,5 @@ go/*
 !.config/skhd
 !.config/yabai
 !.config/zsh
+.config/zsh/cht.sh
+.config/zsh/network.sh
