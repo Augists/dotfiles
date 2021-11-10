@@ -1,4 +1,4 @@
-export PATH="$PATH:$HOME/.config/nnn/bin"
+export PATH="$PATH:$HOME/.config/zsh/nnn/bin"
 
 export NNN_BMS="e:$HOME/.config/;d:$HOME/Downloads/;c:~/Downloads/.code/;p:$HOME/Downloads/.code/python/;g:~/Downloads/GitHub/"
 export NNN_COLORS='4321'

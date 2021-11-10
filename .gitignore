@@ -33,9 +33,7 @@ go/*
 !.config/deprecated/ranger
 !.config/deprecated/spacebar
 !.config/kitty
-!.config/nnn
 !.config/skhd
 !.config/yabai
 !.config/zsh
-.config/zsh/cht.sh
-.config/zsh/network.sh
+.config/zsh/*.sh
