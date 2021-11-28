@@ -26,6 +26,9 @@ go/*
 .config/*
 !.config/.tmux
 !.config/htop
+!.config/nnn
+.config/nnn/*
+!.config/nnn/nnn_conf.zsh
 
 !.config/deprecated
 .config/deprecated/*
