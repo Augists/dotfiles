@@ -1,6 +1,6 @@
 export PATH="$PATH:$HOME/.config/nnn/bin"
 
-export NNN_BMS="e:$HOME/.config/;d:$HOME/Downloads/;c:~/Downloads/.code/;p:$HOME/Downloads/.code/python/;g:~/Downloads/GitHub/"
+export NNN_BMS="e:$HOME/.config/;d:$HOME/Downloads/;c:~/Downloads/.code/;g:~/Downloads/GitHub/;s:/usr/local/go"
 export NNN_COLORS='4321'
 export NNN_FIFO='/tmp/nnn.fifo'
 export NNN_TMPFILE='/tmp/.lastd'
