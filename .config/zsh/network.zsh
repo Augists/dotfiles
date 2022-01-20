@@ -1,4 +1,4 @@
-alias proxy_on_C='export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890'
+alias proxy_on='export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890'
 alias proxy_on_U='export all_proxy=socks5://127.0.0.1:1080'
 alias proxy_off='unset all_proxy'
 # export http_proxy=socks5://127.0.0.1:1080
