@@ -36,8 +36,6 @@ go/*
 !.config/deprecated/ranger
 !.config/deprecated/spacebar
 !.config/kitty
-!.config/skhd
-!.config/yabai
 !.config/zsh
 .config/zsh/*.sh
 .config/zsh/systags
