@@ -39,7 +39,7 @@ yabai -m config insert_feedback_color           0xffd75f5f
 
 # general space settings
 yabai -m config layout                          bsp
-yabai -m config top_padding                     10
+yabai -m config top_padding                     40
 yabai -m config bottom_padding                  15
 yabai -m config left_padding                    15
 yabai -m config right_padding                   15
@@ -53,8 +53,8 @@ yabai -m rule --add app="^Mail$"                space=4
 yabai -m rule --add app="^Safari$"              space=2
 yabai -m rule --add app="^kitty$"               space=1
 yabai -m rule --add app="^QQ$"                  space=4
+yabai -m rule --add app="^WeChat$"              space=4
 yabai -m rule --add app="^Music$"               space=5
-yabai -m rule --add app="^WeChat$"              manage=off
 yabai -m rule --add app="^System Preferences$"  manage=off
 yabai -m rule --add app="^Dictionary$"  manage=off
 # yabai -m rule --add app="^Finder$"              manage=off
