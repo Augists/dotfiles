@@ -10,3 +10,5 @@ source ${ZSH_CONFIG_DIR}/python.zsh
 alias cht.sh="$ZSH_CONFIG_DIR/cht.sh"
 
 alias ll='ls -lah'
+
+export PATH=$PATH:~/.local/bin
