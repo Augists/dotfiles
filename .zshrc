@@ -1,4 +1,4 @@
-export EDITOR='$HOME/.local/bin/lvim'
+export EDITOR='lvim'
 
 source ~/.oh-my-zsh/zsh_conf.zsh
 source ~/go/go_conf.zsh
