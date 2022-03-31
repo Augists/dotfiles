@@ -1,4 +1,4 @@
-export EDITOR='lvim'
+export EDITOR='nvim'
 
 source ~/.oh-my-zsh/zsh_conf.zsh
 source ~/go/go_conf.zsh

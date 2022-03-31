@@ -1,4 +1,4 @@
-alias vim='lvim'
+alias vim='nvim'
 alias luamake=/Users/zhangyichi/.config/lua-language-server/3rd/luamake/luamake
 export PATH="$PATH:$HOME/.config/lua-language-server/bin/macOS"
 export CPPFLAGS="-I/usr/local/opt/llvm/include"
