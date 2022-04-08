@@ -40,3 +40,4 @@ go/*
 .config/zsh/*.sh
 .config/zsh/systags
 .config/zsh/gotags
+.config/zsh/fig-bak

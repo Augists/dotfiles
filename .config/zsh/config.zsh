@@ -11,4 +11,4 @@ alias cht.sh="$ZSH_CONFIG_DIR/cht.sh"
 
 alias ll='ls -lah'
 
-export PATH=$PATH:~/.local/bin
+# export PATH=$PATH:~/.local/bin
