@@ -7,11 +7,12 @@
 !.clang-format
 !.npmrc
 !.hushlogin
+!.tmux.conf
 
 
 !.config
 .config/*
-!.config/.tmux
+!.config/tmux
 !.config/btop
 !.config/ideavim
 !.config/joshuto
