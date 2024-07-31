@@ -8,6 +8,7 @@
 !.npmrc
 !.hushlogin
 !.tmux.conf
+!alacritty.toml
 
 
 !.config

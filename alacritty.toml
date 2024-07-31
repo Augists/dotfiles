@@ -1,0 +1,19 @@
+shell = "C:\\Program Files\\Git\\bin\\bash.exe"
+working_directory = "C:\\Users\\Augists"
+live_config_reload = true
+
+[window]
+dimensions = { columns = 120, lines = 35 }
+position ={ x = 960, y = 380 }
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+decorations = "None"
+opacity = 0.8
+
+[font]
+# normal = { family = "Hack Nerd Font" }
+normal = { family = "SauceCodePro Nerd Font" }
+size = 14
+
+[mouse]
+hide_when_typing = true
