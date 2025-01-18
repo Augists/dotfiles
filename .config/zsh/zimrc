@@ -1,0 +1,11 @@
+zmodule git-info
+zmodule duration-info
+zmodule prompt-pwd
+
+zmodule bira
+
+zmodule zsh-users/zsh-completions --fpath src
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-autosuggestions
+
+zmodule pacman
