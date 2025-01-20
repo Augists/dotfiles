@@ -4,15 +4,15 @@ live_config_reload = true
 
 [window]
 dimensions = { columns = 120, lines = 35 }
-position ={ x = 960, y = 380 }
+# position ={ x = 960, y = 380 }
 padding = { x = 10, y = 10 }
 dynamic_padding = true
-decorations = "None"
+decorations = "None" # Full
 opacity = 0.8
 
 [font]
 # normal = { family = "Hack Nerd Font" }
-normal = { family = "SauceCodePro Nerd Font" }
+normal = { family = "SauceCodePro NF", style = "Medium" }
 size = 14
 
 [mouse]
