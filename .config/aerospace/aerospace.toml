@@ -12,7 +12,7 @@ after-login-command = []
 after-startup-command = []
 
 # Start AeroSpace at login
-start-at-login = false
+start-at-login = true
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
@@ -41,7 +41,7 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 # You can effectively turn off macOS "Hide application" (cmd-h) feature by toggling this flag
 # Useful if you don't use this macOS feature, but accidentally hit cmd-h or cmd-alt-h key
 # Also see: https://nikitabobko.github.io/AeroSpace/goodies#disable-hide-app
-automatically-unhide-macos-hidden-apps = false
+automatically-unhide-macos-hidden-apps = true
 
 # Possible values: (qwerty|dvorak|colemak)
 # See https://nikitabobko.github.io/AeroSpace/guide#key-mapping
@@ -57,12 +57,33 @@ automatically-unhide-macos-hidden-apps = false
 #                 See:
 #                 https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
 [gaps]
-    inner.horizontal = 8
-    inner.vertical =   8
-    outer.left =       8
-    outer.bottom =     8
-    outer.top =        8
-    outer.right =      8
+    inner.horizontal  = 8
+    inner.vertical    = 8
+    outer.left        = 8
+    outer.bottom      = 8
+    outer.top         = 8
+    outer.right       = 8
+
+# Define my fancy unicorn key notation
+[key-mapping.key-notation-to-key-code]
+    terminal  = '1'
+    browser   = '2'
+    coding    = '3'
+    chat      = '4'
+    email     = '5'
+    spotify   = '6'
+    typora    = 'm'
+    augists   = 'b'
+
+[workspace-to-monitor-force-assignment]
+    terminal  = 'main'        # Main monitor
+    browser   = 'main'        # Main monitor
+    coding    = 'main'        # Main monitor
+    chat      = 'main'        # Main monitor
+    email     = 'main'        # Main monitor
+    spotify   = 'main'        # Main monitor
+    typora    = 'main'        # Main monitor
+    augists   = 'secondary'   # Non-main monitor in case when there are only two monitors
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -119,20 +140,24 @@ automatically-unhide-macos-hidden-apps = false
     alt-equal = 'resize smart +50'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
-    alt-1 = 'workspace 1'
-    alt-2 = 'workspace 2'
-    alt-3 = 'workspace 3'
-    alt-4 = 'workspace 4'
-    alt-5 = 'workspace 5'
-    alt-6 = 'workspace 6'
+    alt-terminal = 'workspace terminal'
+    alt-browser = 'workspace browser'
+    alt-coding = 'workspace coding'
+    alt-chat = 'workspace chat'
+    alt-email = 'workspace email'
+    alt-spotify = 'workspace spotify'
+    alt-typora = 'workspace typora'
+    alt-augists = 'workspace augists'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-    alt-shift-1 = 'move-node-to-workspace 1'
-    alt-shift-2 = 'move-node-to-workspace 2'
-    alt-shift-3 = 'move-node-to-workspace 3'
-    alt-shift-4 = 'move-node-to-workspace 4'
-    alt-shift-5 = 'move-node-to-workspace 5'
-    alt-shift-6 = 'move-node-to-workspace 6'
+    alt-shift-terminal = 'move-node-to-workspace terminal'
+    alt-shift-browser = 'move-node-to-workspace browser'
+    alt-shift-coding = 'move-node-to-workspace coding'
+    alt-shift-chat = 'move-node-to-workspace chat'
+    alt-shift-email = 'move-node-to-workspace email'
+    alt-shift-spotify = 'move-node-to-workspace spotify'
+    alt-shift-typora = 'move-node-to-workspace typora'
+    alt-shift-augists = 'move-node-to-workspace augists'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
     alt-tab = 'workspace-back-and-forth'
