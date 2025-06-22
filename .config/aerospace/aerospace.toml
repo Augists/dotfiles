@@ -74,6 +74,7 @@ automatically-unhide-macos-hidden-apps = true
     spotify   = '6'
     typora    = 'm'
     augists   = 'b'
+    ide       = 'c'
 
 [workspace-to-monitor-force-assignment]
     terminal  = 'main'        # Main monitor
@@ -83,6 +84,7 @@ automatically-unhide-macos-hidden-apps = true
     email     = 'main'        # Main monitor
     spotify   = 'main'        # Main monitor
     typora    = 'main'        # Main monitor
+    ide       = 'main'
     augists   = 'secondary'   # Non-main monitor in case when there are only two monitors
 
 # 'main' binding mode declaration
@@ -116,10 +118,23 @@ automatically-unhide-macos-hidden-apps = true
     #     activate
     # end tell'
     # '''
+    alt-enter = '''exec-and-forget osascript -e '
+    tell application "kitty" to activate
+    tell application "System Events"
+        repeat until (exists file "/tmp/kittynyx.sock")
+            delay 6
+        end repeat
+    end tell
+    do shell script "/Applications/kitty.app/Contents/MacOS/kitty @ --to unix:/tmp/kittynyx.sock new-window --new-tab"
+    tell application "System Events" to keystroke q
+    tell application "System Events"
+        key code 36 -- enter key
+    end tell'
+    '''
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
-    alt-slash = 'layout tiles horizontal vertical'
-    alt-comma = 'layout accordion horizontal vertical'
+    # alt-slash = 'layout accordion horizontal vertical'
+    alt-comma = 'layout tiles horizontal vertical'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#focus
     alt-h = 'focus left'
@@ -148,6 +163,7 @@ automatically-unhide-macos-hidden-apps = true
     alt-spotify = 'workspace spotify'
     alt-typora = 'workspace typora'
     alt-augists = 'workspace augists'
+    alt-ide = 'workspace ide'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
     alt-shift-terminal = 'move-node-to-workspace terminal'
@@ -158,6 +174,7 @@ automatically-unhide-macos-hidden-apps = true
     alt-shift-spotify = 'move-node-to-workspace spotify'
     alt-shift-typora = 'move-node-to-workspace typora'
     alt-shift-augists = 'move-node-to-workspace augists'
+    alt-shift-ide = 'move-node-to-workspace ide'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
     alt-tab = 'workspace-back-and-forth'
@@ -172,17 +189,22 @@ automatically-unhide-macos-hidden-apps = true
 [mode.service.binding]
     esc = ['reload-config', 'mode main']
     r = ['flatten-workspace-tree', 'mode main'] # reset layout
-    f = ['layout floating tiling', 'mode main'] # Toggle between floating and tiling layout
-    backspace = ['close-all-windows-but-current', 'mode main']
+    # f = ['layout floating tiling', 'mode main'] # Toggle between floating and tiling layout
+    # backspace = ['close-all-windows-but-current', 'mode main']
 
     # sticky is not yet supported https://github.com/nikitabobko/AeroSpace/issues/2
-    #s = ['layout sticky tiling', 'mode main']
+    # s = ['layout sticky tiling', 'mode main']
 
+    # support join-with shortcuts without modifier keys
+    h = ['join-with left', 'mode main']
+    j = ['join-with down', 'mode main']
+    k = ['join-with up', 'mode main']
+    l = ['join-with right', 'mode main']
     alt-shift-h = ['join-with left', 'mode main']
     alt-shift-j = ['join-with down', 'mode main']
     alt-shift-k = ['join-with up', 'mode main']
     alt-shift-l = ['join-with right', 'mode main']
 
-    down = 'volume down'
-    up = 'volume up'
-    shift-down = ['volume set 0', 'mode main']
+    # down = 'volume down'
+    # up = 'volume up'
+    # shift-down = ['volume set 0', 'mode main']
