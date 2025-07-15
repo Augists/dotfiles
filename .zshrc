@@ -19,6 +19,8 @@ alias ll='ls -lah --color=auto'
 alias vi='vim'
 alias grep='grep --color=auto'
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 zstyle ':zim:zmodule' use 'degit'
 
 ZIM_CONFIG_FILE=~/.config/zsh/zimrc
@@ -48,3 +50,7 @@ function y() {
 }
 
 export EDITOR=nvim
+
+export PATH=$PATH:$HOME/go/bin/
+
+source ${HOME}/.config/git/alias.zsh

@@ -1,0 +1,94 @@
+# Ref: BV1KSjRzxE3b
+
+[user]
+  name = Augists
+  email = augists@duck.com
+
+[core]
+  compression = 9
+  whitespace = error
+  preloadindex = true
+  excludesfile = ~/.config/git/ignore
+
+[commit]
+  template = ~/.config/git/template
+
+[advice]
+  addEmptyPathspec = false
+  pushNonFastForward = false
+  statusHints = false
+
+[url "git@github.com:Augists/"]
+  insteadOf = "augists:"
+  # gcl augists:dotfiles
+
+[url "git@github.com:"]
+  insteadOf = "gh:"
+  # gcl gh:Augists/dotfiles
+
+[init]
+  defaultBranch = main
+
+[status]
+  branch = true
+  showStash = true
+  showUntrackedFiles = all
+
+[diff]
+  context = 3
+  renames = copies
+  interHunkContext = 10
+
+[pager]
+  branch = false
+  tag = false
+
+[color "diff"]
+  meta        = black bold
+  frag        = magenta
+  context     = white
+  whitespace  = yellow reverse
+  old         = red
+
+[interactive]
+  diffFilter = diff-so-fancy --patch
+  singlekey = true
+
+[push]
+  autoSetupRemote = true
+  default = current
+  followTags = true
+
+[pull]
+  default = current
+  rebase = true
+
+[rebase]
+  autoStash = true
+  misssingCommitsCheck = warn
+
+[log]
+  abbrevCommit = true
+  graphColors = blue,yellow,cyan,magenta,green,red
+
+[color "decorate"]
+  HEAD = red
+  branch = blue
+  tag = yellow
+  remoteBranch = magenta
+
+[color "branch"]
+  current = magenta
+  local = default
+  remote = yellow
+  upstream = green
+  plain = blue
+
+[branch]
+  sort = -committerdate
+
+[tag]
+  sort = -taggerdate
+
+[help]
+  autocorrect = 1

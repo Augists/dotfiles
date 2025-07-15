@@ -1,0 +1,27 @@
+# Introduce new features.
+# ✨feat():
+# Improve performance.
+# ⚡️feat():
+#
+# Add or update documentation.
+# 📝doc():
+#
+# Fix a bug.
+# 🐛fix():
+# Simple fix for a non-critical issue.
+# 🩹fix():
+#
+# Improve structure / format of the code.
+# 🎨style(): 
+#
+# Remove code or files.
+# 🔥del():
+#
+# Add or update CI build system.
+# 👷ci/cd():
+#
+# Deploy stuff.
+# 🚀deploy():
+#
+# Reflector code.
+# ♻️reflect():
