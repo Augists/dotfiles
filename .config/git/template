@@ -1,27 +1,24 @@
 # Introduce new features.
-# ✨feat():
-# Improve performance.
-# ⚡️feat():
-#
-# Add or update documentation.
-# 📝doc():
-#
+# ✨feat(): 
 # Fix a bug.
-# 🐛fix():
+# 🐛fix(): 
 # Simple fix for a non-critical issue.
-# 🩹fix():
-#
+# 🩹fix(): 
+# Add or update documentation.
+# 📝docs(): 
 # Improve structure / format of the code.
 # 🎨style(): 
-#
-# Remove code or files.
-# 🔥del():
-#
+# Refactoring production code, eg. renaming a variable.
+# ♻️refactor(): 
+# Improve performance.
+# ⚡️perf(): 
+# Add, update, or pass tests.
+# ✅test(): 
+# Add or update development scripts.
+# 🔨build(): 
 # Add or update CI build system.
-# 👷ci/cd():
-#
+# 👷ci(): 
+# Updat grunt tasks etc; no production code change.
+# 📦️chore(): 
 # Deploy stuff.
-# 🚀deploy():
-#
-# Reflector code.
-# ♻️reflect():
+# 🚀deploy(): 
