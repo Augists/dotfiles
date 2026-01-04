@@ -19,8 +19,6 @@ alias ll='ls -lah --color=auto'
 alias vi='vim'
 alias grep='grep --color=auto'
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
 zstyle ':zim:zmodule' use 'degit'
 
 ZIM_CONFIG_FILE=~/.config/zsh/zimrc
@@ -51,6 +49,9 @@ function y() {
 
 export EDITOR=nvim
 
-export PATH=$PATH:$HOME/go/bin/
+alias proxy='export ALL_PROXY=socks5://localhost:20170'
 
-source ${HOME}/.config/git/alias.zsh
+[ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
+
+export PATH=$PATH:$HOME/go/bin
+export PATH="$HOME/.local/bin:$PATH"

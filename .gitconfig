@@ -1,3 +1,5 @@
 [user]
 	name = Augists
 	email = augists@duck.com
+[http]
+	sslVerify = false
